@@ -15,7 +15,7 @@
 
 	<bean id="entityManagerFactory"
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
-		<property name="persistenceUnitName" value="mitjava" />
+		<property name="persistenceUnitName" value="cepPU" />
 		<property name="dataSource" ref="dataSource" />
 		<property name="jpaVendorAdapter" ref="jpaVendorAdapter" />
 		<property name="jpaDialect" ref="jpaDialect" />
@@ -46,7 +46,7 @@
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url"
-	value="jdbc:mysql://localhost/aula01?createDatabaseIfNotExist=true&amp;useTimezone=true&amp;serverTimezone=UTC" />
+	value="jdbc:mysql://localhost/cepdb?createDatabaseIfNotExist=true&amp;useTimezone=true&amp;serverTimezone=UTC" />
 		<property name="username" value="root" />
 		<property name="password" value="root" />
 	</bean>

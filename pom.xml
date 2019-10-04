@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.infnet</groupId>
-	<artifactId>todoapp</artifactId>
+	<artifactId>cep</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>todoapp Maven Webapp</name>
@@ -78,8 +78,6 @@
 			<version>2.3.0</version>
 		</dependency>
 
-
-
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -88,7 +86,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>todoapp</finalName>
+		<finalName>cepapp</finalName>
 
 		<plugins>
 			<plugin>
