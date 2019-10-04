@@ -1,4 +1,4 @@
-package br.edu.infnet.todoapp;
+package br.edu.infnet.cepapp;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

@@ -1,8 +1,8 @@
-package br.edu.infnet.todoapp.app.model.persistence;
+package br.edu.infnet.cepapp.app.model.persistence;
 
 import org.springframework.stereotype.Repository;
 
-import br.edu.infnet.todoapp.app.model.Usuario;
+import br.edu.infnet.cepapp.app.model.Usuario;
 
 @Repository
 public class UsuarioDao extends JpaDao<Usuario> {

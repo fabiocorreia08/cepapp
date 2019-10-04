@@ -1,4 +1,4 @@
-package br.edu.infnet.todoapp;
+package br.edu.infnet.cepapp;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
